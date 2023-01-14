@@ -1,16 +1,7 @@
-# open_web
+# Open Web
 
-A new Flutter project.
+A simple project to automate run & open mods website to fetch links and copy-paste to JDownloader.
 
-## Getting Started
+### Instruction
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Change existing `Game` enum to your desired game or create a new one with a new listing of mods' id (from Steam).
