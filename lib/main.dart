@@ -37,9 +37,13 @@ enum Game {
 
   const Game({required this.url, this.appId});
 
+  /// Base URL for game mod downloads
   final String url;
+
+  /// App ID of the game, similar to Steam game ID
   final String? appId;
 
+  /// Get [List] of mod IDs from enum of [Game]
   List<String> getGameIds() {
     switch (this) {
       case Game.citiesSkylines:
